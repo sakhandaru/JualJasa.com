@@ -1,0 +1,314 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family:monospace;
+}
+.badan{
+	height: 100vh;
+	/* width: 100vw; */
+	background-color: #1b1b1d;
+	/* background: linear-gradient(#099e3b, #000000)	 */
+}
+
+.navbar{
+	display:flex;
+	align-items: center;
+	/* justify-content: space-between; */
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 6%;
+	padding-right: 8%;
+	position: fixed;
+	/* overflow: hidden; */
+	background-color: rgb(20, 20, 20);
+	box-shadow: 0 5px 30px rgba(0, 0, 0, 0.288), 0 10px 10px rgba(0, 0, 0, 0.397);
+	width: 100%;
+	/* position: absolute; */
+	/* display: flex; */
+    flex-direction: row;
+    flex-wrap: nowrap;
+    /* height: 80px; */
+    /* align-items: center; */
+    /* justify-content: space-between;	 */
+}
+.printilan{
+	padding-left: 40vh;
+}
+
+.lance{
+	color: #289e10;
+}
+
+.logo{
+	color: rgb(255, 255, 255);
+	font-size: 35px;
+	letter-spacing: 2px;
+
+}
+
+span{
+	color: #289e10;
+}
+
+li{
+	display: inline;
+	padding: 10px  25px;
+}
+
+a{
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	text-transform: capitalize;
+}
+.navbar ul li a:hover{
+	color: #12b81b;
+	
+}
+.btn{
+	background-color:#2c720c;
+	margin-left: 13vw;
+	color: white;
+	font-weight:bold;
+	padding: 10px 25px;
+	border-radius: 30px;
+	transition: transform .4s; 
+	display: flex;
+}
+
+.keluar{
+	/* //belumada */
+}
+
+	
+
+.content{
+	/* position:absolute; */
+	padding-top: 40vh;
+	padding-left: 9vw;
+	top: 50%;
+	left:10%;
+}
+.content h1{
+	color: white;
+	margin: 20px 0px 20px;
+	font-size: 100px;
+	text-shadow: rgb(7, 15, 8) 5px 5px;
+	
+}
+h3{
+	color: white;
+	font-size: 25px;
+	margin-bottom: 50px;
+}
+h4{
+	color: white;
+	letter-spacing: 2px;
+	font-size: 20px;
+	/* background-color: #101010; */
+}
+
+.about{
+	background-color: #000;
+	height: 100vh;
+	/* width: 100vw; */
+}
+
+.about-text{
+	width: 500px;
+	align-items: center;
+	padding-top: 200px;
+}
+
+
+.about-text h2{
+	color: #ffff;
+	font-size: 40px;
+	text-shadow: black 4px 4px ;
+	align-items: center;
+	background-image: url(plastik.jpg);
+	width: 70%;
+	padding: none;
+}
+
+.about-text h5{
+	letter-spacing: 2px;
+	font-size: 75%;
+	text-transform: capitalize;
+	margin-bottom: 25px;
+	color: rgb(57, 189, 17);
+	margin-bottom: 7px;
+	margin-top: 15px;
+}
+
+.about-text p{
+	color: white;
+	letter-spacing: 2px;
+	line-height: 28px;
+	text-align:center;
+	font-size: 100%;
+}
+ 
+.home{
+	background-color: #f5f5f5;
+	padding: 5px 20px;
+	border: none;
+	border-radius: 50px;
+	color: #1b1b1d;
+	float: right;
+	position:fixed;
+	left: 90vw;
+	top: 90vh;
+	box-shadow: 0 5px 30px rgba(0, 0, 0, 0.288), 0 10px 10px rgba(0, 0, 0, 0.397);
+}
+
+.home3{
+	color: #101010;
+	font-size: 20px;
+}
+
+.jasa {	
+	background-color: #101010;
+	padding: 50px;
+	padding-bottom: 125px;
+}
+
+.jasa h2{
+	color:white;
+	font-size: 50px;
+	/* width: 1130px; */
+	margin: 35px auto;
+	text-align: center;
+}
+
+.box{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/* height: 300px; */
+}
+
+.card{
+	height: 150px;
+	width: 150px;
+	padding: 27px;
+	background: #191919;
+	border-radius: 20px;
+	margin: 20px;
+	/* position: relative; */
+	/* text-align: center; */
+	font-size: 90%;
+
+}
+
+.card h5{
+	color: rgb(57, 189, 17);
+	font-size: 25px;
+	margin-bottom: 7px;
+	margin-top: 15px;
+}
+
+
+.pra{
+	color: #ffff;
+	font-size: 12px;
+	line-height:18px ;
+}
+
+.order {
+	background-color: #353535;
+	border: none;
+	border-radius: 20px;
+	margin-top: 10%;
+	width: 95px;
+	height: 20px;
+	font-weight: bold;
+}
+
+.cv {
+	text-align: center;
+	padding: 20px 50px;
+	background-color:transparent;
+	border:2px solid #2c720c;
+	border-radius: 30px;
+	
+}
+.mulai{
+	width: 100%;
+	height: 100vh;
+	background: #191919;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	background-image: url(image/plastik.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;}
+
+.mulai p{
+	color: white;
+	font-size: 30px;
+	font-weight:bolder;
+	margin-bottom: 25px;
+	text-shadow: #000 3px 3px;
+}
+
+.mulai .tombol{
+	background-color: #289e10;
+	color: aliceblue;
+	font-weight: bold;
+	padding: 13px 30px;
+	border-radius: 30px;
+}
+ .footer{
+	width: 100%;
+	font-size: small;
+	font-weight: lighter;
+	height: 200px;
+	background-color: #101010;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	color: aliceblue;
+	line-height: 25px;
+	font-family: monospace;
+	/* padding-top: px; */
+ }
+
+.last{
+	background-color:#101010;
+	border:0px solid black;
+	display: flex;
+	flex-direction: row;
+	padding: 0px 70px 130px 100px;
+	justify-content: space-between;
+}
+
+.last table{
+	width: 500px;
+	color: #5d5d61;
+	text-align: left;
+}
+
+.last table a{
+	color: #5d5d61;
+}
+
+th{
+	font-size: 120%;
+	color: antiquewhite;
+}
+
+.logobawah{
+	padding-top: 20px;
+}
+.last h1{
+	font-size: 30px;
+	padding-top: 10px;
+	color: antiquewhite;
+}
+
+.last h4{
+	font-size: 15px;
+}
+
