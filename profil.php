@@ -49,19 +49,26 @@
                 $email  = $_POST['email'];
                 $alamat = ucwords($_POST['alamat']) ;
 
-                $update = mysqli_query($conn, "UPDATE tb_admin SET
-                                    admin_name = '".$nama."',
-                                    username = '".$user."',
-                                    admin_telp = '".$hp."',
-                                    admin_email = '".$email."',
-                                    admin_address = '".$alamat."'
-                                    WHERE admin_id = '".$d->admin_id."' ");
-                if ($update){
+                // $update = mysqli_query($conn, "UPDATE tb_admin SET
+                //                     admin_name = '".$nama."',
+                //                     username = '".$user."',
+                //                     admin_telp = '".$hp."',
+                //                     admin_email = '".$email."',
+                //                     admin_address = '".$alamat."'
+                //                     WHERE admin_id = '".$d->admin_id."' ");
+
+                $update = "UPDATE tb_admin SET admin_name = '$nama',
+                                               username = '$user',
+                                               admin_telp = '$hp',
+                                               admin_email = '$email',
+                                               admin_address = '$alamat'
+                                             WHERE admin_id = '1'";
+                if (mysqli_query($conn, $update)){
                     echo 'berhasil diperbarui';
                 }else {
                     echo 'gagal diperbarui' .mysqli_error($conn);
                     echo '<script>alert("Ubah data berhasil")</script>';
-                    echo 'window.location="profil.php"</script>';
+                    echo '<script>window.location="profil.php"</script>';
                 }
             }
         ?>
@@ -73,10 +80,10 @@
         <form action="" method="post">
             <input type="password" name="pass1" placeholder="Password Baru" required>
             <input type="password" name="pass2" placeholder="Konfirmasi Password" required>
-            <input type="submit" name="submit" placeholder="kirim" value="Ubah Password">
+            <input type="submit" name="submitpass" placeholder="kirim" value="Ubah Password">
         </form>
         <?php
-            if(isset($_POST['Ubah Password'])){
+            if(isset($_POST['submitpass'])){
                 
                 $pass1   = $_POST['pass1'];
                 $pass2  = $_POST['pass2'];
