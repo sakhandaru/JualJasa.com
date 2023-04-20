@@ -13,27 +13,29 @@
 .navbar{
 	display:flex;
 	align-items: center;
-	/* justify-content: space-between; */
+	justify-content:space-around;
 	padding-top: 15px;
 	padding-bottom: 15px;
-	padding-left: 6%;
-	padding-right: 8%;
+	padding-left: 0;
+	padding-right: 0;  
+	/* padding: 15px; */
 	position: fixed;
+	/* margin-bottom: ; */
 	/* overflow: hidden; */
-	background-color: rgb(20, 20, 20);
+	background-color: rgb(27, 26, 26);
 	box-shadow: 0 5px 30px rgba(0, 0, 0, 0.288), 0 10px 10px rgba(0, 0, 0, 0.397);
 	width: 100%;
 	/* position: absolute; */
-	/* display: flex; */
-    flex-direction: row;
-    flex-wrap: nowrap;
-    /* height: 80px; */
+	display: flex;
+    /* flex-direction: row; */
+    /* flex-wrap: nowrap; */
+    height: 57px;
     /* align-items: center; */
     /* justify-content: space-between;	 */
 }
-.printilan{
-	padding-left: 40vh;
-}
+/* .printilan{
+	margin: 10px;
+} */
 
 .lance{
 	color: #289e10;
@@ -65,20 +67,8 @@ a{
 	color: #12b81b;
 	
 }
-.btn{
-	background-color:#2c720c;
-	margin-left: 13vw;
-	color: white;
-	font-weight:bold;
-	padding: 10px 25px;
-	border-radius: 30px;
-	transition: transform .4s; 
-	display: flex;
-}
 
-.keluar{
-	/* //belumada */
-}
+
 
 	
 
@@ -243,7 +233,8 @@ h4{
 	justify-content: center;
 	background-image: url(image/plastik.jpg);
 	background-repeat: no-repeat;
-	background-size: cover;}
+	background-size: cover;
+}
 
 .mulai p{
 	color: white;
@@ -311,4 +302,3 @@ th{
 .last h4{
 	font-size: 15px;
 }
-

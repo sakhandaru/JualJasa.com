@@ -105,7 +105,7 @@ $promo = $_POST['promo'];
     </div>
 
     <script>
-        var lanjutkan = prompt("Konfimasi pesanan. Ketik "y"  untuk melanjutkan.);
+        var lanjutkan = prompt("Konfimasi pesanan. Ketik  'y'  untuk melanjutkan.");
         if (lanjutkan == "lanjut"){
             document.write("");
         } else {
